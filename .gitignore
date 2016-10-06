@@ -1,6 +1,7 @@
 .idea/
 node_modules/
 typings/**
-app/**/.js
+!webpack.config.js
 build/main.js
+*.js
 
