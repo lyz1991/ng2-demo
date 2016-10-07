@@ -8,8 +8,8 @@ import {login} from './components/login/login'
 
 
 @NgModule({
-    imports: [ BrowserModule, HttpModule,  routing],
-    declarations: [login, details, app],
+    imports: [ BrowserModule, HttpModule,  routing, login],
+    declarations: [details, app, login],
     bootstrap: [app]
 })
 export class AppModule { }
