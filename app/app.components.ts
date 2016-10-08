@@ -6,7 +6,7 @@ import {Component} from '@angular/core'
 @Component({
     selector: "my-app",
     templateUrl: 'html/index.html',
-    styleUrls: [('html/less/index.css')]
+    styles: [String(require('../html/less/index.less'))]
 })
 export class app {
 
