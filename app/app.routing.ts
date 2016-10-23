@@ -5,9 +5,10 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {details} from './components/details/details';
 import {login} from './components/login/login';
+import {config} from './components/config/config';
 const appRoutes: Routes = [
     {path: '',
-      component: login
+      component: config
     },
     {
         path: 'login',
@@ -17,5 +18,9 @@ const appRoutes: Routes = [
         path: 'details',
         component: details
     },
+    {
+        path: 'config',
+        component: config
+    }
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
